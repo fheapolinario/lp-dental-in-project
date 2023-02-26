@@ -37,3 +37,238 @@ body {
 .footer {
     margin-top: 80px;
 }
+
+/* Header */
+
+.header {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    width: 116px;
+}
+
+.header-contact {
+    text-decoration: none;
+    border: 2px solid var(--primary-color);
+    width: 130px;
+    height: 32px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: var(--primary-color);
+}
+
+/* Presentation */
+
+.presentation {
+    margin-top: 78px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentation-description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentation-title {
+    font-size: 20px;
+    color: var(--primary-color);
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+}
+
+.presentation-text {
+    color: var(--gray-200);
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.presentation-contact {
+    text-decoration: none;
+    color: var(--white);
+    border-radius: 9px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 57px;
+    font-size: 14px;
+    margin-top: 40px;
+    transition: filter 250ms;
+}
+
+.presentation-contact:hover {
+    filter: brightness(1.2);
+}
+
+.presentation-image {
+    margin-top: 40px;
+    max-width: 262px;
+    height: 295px;
+}
+
+/* About Us */
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us-tag {
+    color: var(--gray-100);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
+
+.about-us-title {
+    margin-top: 30px;
+    font-size: 20px;
+    color: var(--primary-color);
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+}
+
+.about-us-company-name-title {
+    color: var(--gray-100);
+    font-weight: 600;
+}
+
+.about-us-text {
+    margin-top: 20px;
+    color: var(--gray-200);
+    text-align: center;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.about-us-image {
+    margin-top: 50px;
+    max-width: 274px;
+    height: 278px;
+}
+
+/* Services */
+
+.services-tag {
+    margin-top: 80px;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    color: var(--gray-100);
+    font-weight: 600;
+}
+
+.services-title {
+    color: var(--black);
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.services-item {
+    margin-top: 40px;
+}
+
+.services-item-image {
+    display: block;
+    width: 66px;
+    margin: 0 auto 20px auto;
+}
+
+.services-item-description {
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+}
+
+/* Bottom Slogan */
+
+.bottom-slogan-container {
+    background-color: #C4C4C40F;
+    padding: 30px 0;
+}
+
+.bottom-slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-slogan-tag {
+    color: var(--gray-100);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.bottom-slogan-text {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.bottom-slogan-contact {
+    margin-top: 15px;
+    background: var(--primary-color);
+    text-decoration: none;
+    color: var(--white);
+    width: 135px;
+    height: 38px;
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    transition: filter 250ms;
+}
+
+.bottom-slogan-contact:hover {
+    filter: brightness(1.2);
+}
+
+.bottom-slogan-image {
+    max-width: 239px;
+    height: 271px;
+    margin-top: 48px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+.footer-logo {
+    width: 116px;
+}
+
+.footer-text {
+    color: var(--gray-200);
+    font-weight: 600;
+    margin-top: 40px;
+}
